@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.container > img {
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 5px;
+  /* justify-items: center; */
+  align-items: center;
+  padding: 7px;
+}
